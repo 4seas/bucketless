@@ -23,6 +23,9 @@
 		814D331A1C82114D00F49FD7 /* RMParallaxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D33121C82114D00F49FD7 /* RMParallaxItem.swift */; };
 		816D03141C8212FF00E658B8 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03131C8212FF00E658B8 /* WelcomeVC.swift */; };
 		816D03161C8237D500E658B8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03151C8237D500E658B8 /* SignUpVC.swift */; };
+		816D03181C8247FE00E658B8 /* BucketListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03171C8247FE00E658B8 /* BucketListVC.swift */; };
+		816D031A1C82481B00E658B8 /* CompletedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03191C82481B00E658B8 /* CompletedVC.swift */; };
+		816D031C1C824F0200E658B8 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D031B1C824F0200E658B8 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		814D33121C82114D00F49FD7 /* RMParallaxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallaxItem.swift; sourceTree = "<group>"; };
 		816D03131C8212FF00E658B8 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		816D03151C8237D500E658B8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		816D03171C8247FE00E658B8 /* BucketListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListVC.swift; sourceTree = "<group>"; };
+		816D03191C82481B00E658B8 /* CompletedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedVC.swift; sourceTree = "<group>"; };
+		816D031B1C824F0200E658B8 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		883E3AD68D274532F821E27E /* libPods-iBucket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBucket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27F16561077934D05ABBC9B /* Pods-iBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBucket.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBucket/Pods-iBucket.release.xcconfig"; sourceTree = "<group>"; };
 		FBAA0805547254F83FDC21BB /* Pods-iBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBucket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBucket/Pods-iBucket.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +100,9 @@
 				814D33101C82114D00F49FD7 /* RMParallax */,
 				814D32D81C816B8E00F49FD7 /* AppDelegate.swift */,
 				814D32DC1C816B8E00F49FD7 /* Main.storyboard */,
+				816D031B1C824F0200E658B8 /* DetailVC.swift */,
+				816D03191C82481B00E658B8 /* CompletedVC.swift */,
+				816D03171C8247FE00E658B8 /* BucketListVC.swift */,
 				816D03131C8212FF00E658B8 /* WelcomeVC.swift */,
 				816D03151C8237D500E658B8 /* SignUpVC.swift */,
 				814D32FB1C82007200F49FD7 /* SearchVC.swift */,
@@ -269,13 +278,16 @@
 			files = (
 				814D33191C82114D00F49FD7 /* RMParallax.swift in Sources */,
 				816D03141C8212FF00E658B8 /* WelcomeVC.swift in Sources */,
+				816D031C1C824F0200E658B8 /* DetailVC.swift in Sources */,
 				814D32FC1C82007200F49FD7 /* SearchVC.swift in Sources */,
 				814D32FA1C81887C00F49FD7 /* ProfileVC.swift in Sources */,
 				814D32EE1C81715E00F49FD7 /* HomeVC.swift in Sources */,
+				816D03181C8247FE00E658B8 /* BucketListVC.swift in Sources */,
 				814D331A1C82114D00F49FD7 /* RMParallaxItem.swift in Sources */,
 				814D33001C82065300F49FD7 /* DiscoverCell.swift in Sources */,
 				814D32F71C81813F00F49FD7 /* Cell.swift in Sources */,
 				816D03161C8237D500E658B8 /* SignUpVC.swift in Sources */,
+				816D031A1C82481B00E658B8 /* CompletedVC.swift in Sources */,
 				814D32D91C816B8E00F49FD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

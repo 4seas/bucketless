@@ -10,10 +10,11 @@ import UIKit
 
 class HomeVC: UITableViewController{
 
-    var names : [String] = ["Go to Paris", "Go to London"]
-    var images = ["paris", "london"]
-    var profiles = ["basketball.png", "basketball.png"]
-    var whocreated = ["You created a dream","Bob completed a dream", "You completed a dream"]
+    var names : [String] = ["Go to Paris", "Ride Camels in the Sahara", "Visit Machu Picchu"]
+    var locationnames: [String] = ["Paris", "Sahara Desert", "Peru"]
+    var images = ["paris", "ridecamels", "machu"]
+    var whocreated = ["You created a dream","Jack completed a dream", "Felix is looking for friends to go"]
+    var currentindex = 0
        override func viewDidLoad() {
         super.viewDidLoad()
         /*
@@ -55,14 +56,27 @@ class HomeVC: UITableViewController{
         return cell
         
     }
-     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 300.0
     }
     override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 10
     }
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        currentindex = indexPath.section
+
+    
         self.performSegueWithIdentifier("detail", sender: self)
+        
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vc = DetailVC()
+        vc.imageitem.image = UIImage(named:images[currentindex])
+        /*
+        let detailview  = segue.destinationViewController as! DetailVC
+        detailview.imageitem.image = UIImage(named:images[currentindex])
+        detailview.locationname.text = locationnames[currentindex]
+    */
     }
     @IBAction func unwind(segue: UIStoryboardSegue) {
     }
