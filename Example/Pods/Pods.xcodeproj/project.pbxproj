@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2C514462345AEED72FD58ECF3E2C45 /* Pods-iBucket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C30CD89D5FB26D952B2F75F708E59E /* Pods-iBucket-dummy.m */; };
+		4EC64C30555217DEFA9C66FF53A34951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EDCE9251945D522F5B9B86C5AE56BB /* Pods-iBucket-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iBucket-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12F2179645141150D3E0A4181971059C /* libPods-iBucket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBucket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302D64DF92CC3959693E2E9327B3D148 /* Pods-iBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBucket.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		469B178249C1368424BB45FBAEE77D72 /* IMFPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMFPush.framework; path = Frameworks/IMFPush.framework; sourceTree = "<group>"; };
+		86A965050A3E081F2F533EDC5A10A975 /* Pods-iBucket-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBucket-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBD92FF165A45B8BF621E21D7D2232A4 /* Pods-iBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBucket.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBD61FE4AC986DFDA170633B3CCBB11 /* Pods-iBucket-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBucket-resources.sh"; sourceTree = "<group>"; };
+		DF692A15F31B0889CF0F37A85A9ED026 /* Pods-iBucket-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iBucket-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0C30CD89D5FB26D952B2F75F708E59E /* Pods-iBucket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iBucket-dummy.m"; sourceTree = "<group>"; };
+		E95ED0CCC0B0C8C5334175B43AC695D6 /* IMFCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMFCore.framework; path = Frameworks/IMFCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D4C1049D488540273CB2B1CEA16E890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC64C30555217DEFA9C66FF53A34951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05EA44EE4A6A405A8780A2F56F53FB09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469B178249C1368424BB45FBAEE77D72 /* IMFPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3707C30A5D16B98307AF616558712F5C /* IMFPush */ = {
+			isa = PBXGroup;
+			children = (
+				05EA44EE4A6A405A8780A2F56F53FB09 /* Frameworks */,
+			);
+			path = IMFPush;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8B97B01147D9AC468CC1D6679D6AF179 /* Pods */,
+				EA9FB06F5091D33946BEF961CECE5585 /* Products */,
+				D9425D25E59C0BC23764E4B69C47BD33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B97B01147D9AC468CC1D6679D6AF179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB06B2E93BBF863CFF248251507D5423 /* IMFCore */,
+				3707C30A5D16B98307AF616558712F5C /* IMFPush */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB06B2E93BBF863CFF248251507D5423 /* IMFCore */ = {
+			isa = PBXGroup;
+			children = (
+				DEE5C3A493857FC7F3A6F324DB2F091A /* Frameworks */,
+			);
+			path = IMFCore;
+			sourceTree = "<group>";
+		};
+		B69AD27639BE4DBF7EB643FC6D0409A4 /* Pods-iBucket */ = {
+			isa = PBXGroup;
+			children = (
+				04EDCE9251945D522F5B9B86C5AE56BB /* Pods-iBucket-acknowledgements.markdown */,
+				DF692A15F31B0889CF0F37A85A9ED026 /* Pods-iBucket-acknowledgements.plist */,
+				E0C30CD89D5FB26D952B2F75F708E59E /* Pods-iBucket-dummy.m */,
+				86A965050A3E081F2F533EDC5A10A975 /* Pods-iBucket-frameworks.sh */,
+				CFBD61FE4AC986DFDA170633B3CCBB11 /* Pods-iBucket-resources.sh */,
+				CBD92FF165A45B8BF621E21D7D2232A4 /* Pods-iBucket.debug.xcconfig */,
+				302D64DF92CC3959693E2E9327B3D148 /* Pods-iBucket.release.xcconfig */,
+			);
+			name = "Pods-iBucket";
+			path = "Target Support Files/Pods-iBucket";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9425D25E59C0BC23764E4B69C47BD33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B69AD27639BE4DBF7EB643FC6D0409A4 /* Pods-iBucket */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DEE5C3A493857FC7F3A6F324DB2F091A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E95ED0CCC0B0C8C5334175B43AC695D6 /* IMFCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9FB06F5091D33946BEF961CECE5585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F2179645141150D3E0A4181971059C /* libPods-iBucket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE7D3A97E87E08D3FBB5EA54F76F141 /* Pods-iBucket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D7DE15F81A7E06C8AE9CBDAEF550DE /* Build configuration list for PBXNativeTarget "Pods-iBucket" */;
+			buildPhases = (
+				5C8B7DF12A8022DB7D22DE047D194C62 /* Sources */,
+				1D4C1049D488540273CB2B1CEA16E890 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iBucket";
+			productName = "Pods-iBucket";
+			productReference = 12F2179645141150D3E0A4181971059C /* libPods-iBucket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA9FB06F5091D33946BEF961CECE5585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE7D3A97E87E08D3FBB5EA54F76F141 /* Pods-iBucket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8B7DF12A8022DB7D22DE047D194C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2C514462345AEED72FD58ECF3E2C45 /* Pods-iBucket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F55D53658B37B2B4023E420B902FA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302D64DF92CC3959693E2E9327B3D148 /* Pods-iBucket.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84D131C72D5CD16927ECC057EAB0EDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD92FF165A45B8BF621E21D7D2232A4 /* Pods-iBucket.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D7DE15F81A7E06C8AE9CBDAEF550DE /* Build configuration list for PBXNativeTarget "Pods-iBucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D131C72D5CD16927ECC057EAB0EDDA /* Debug */,
+				0F55D53658B37B2B4023E420B902FA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

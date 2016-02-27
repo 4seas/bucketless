@@ -11,12 +11,8 @@ import UIKit
 class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var names : [String] = ["Top 10 Bucket Dreams", "2016 Popular Bucket Restaurants"]
     var images = ["paris", "london"]
-    var heights: [CGFloat] = [300.0, 150.0, 150.0]
     @IBOutlet var tableview: UITableView!
     @IBOutlet weak var search: UISearchBar!
-    @IBOutlet weak var tag1: UIImageView!
-    @IBOutlet weak var tag2: UIImageView!
-    @IBOutlet weak var tag3: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         tableview.delegate = self
@@ -49,8 +45,11 @@ class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     }
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        let height = heights[indexPath.section]
-        return height
+        return 300.0
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("list", sender: self)
     }
     
     

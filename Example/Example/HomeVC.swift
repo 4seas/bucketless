@@ -13,6 +13,7 @@ class HomeVC: UITableViewController{
     var names : [String] = ["Go to Paris", "Go to London"]
     var images = ["paris", "london"]
     var profiles = ["basketball.png", "basketball.png"]
+    var whocreated = ["You created a dream","Bob completed a dream", "You completed a dream"]
        override func viewDidLoad() {
         super.viewDidLoad()
         /*
@@ -49,8 +50,7 @@ class HomeVC: UITableViewController{
         // Configure the cell...
         cell.name.text = names[indexPath.section]
         cell.imagecell.image = UIImage(named: images[indexPath.section])
-        cell.profileimage.image = UIImage(named: profiles[indexPath.section])
-        cell.createdat.text = "created a dream"
+        cell.createdat.text = whocreated[indexPath.section]
         cell.layer.cornerRadius = 10
         return cell
         
