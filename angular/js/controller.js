@@ -38,6 +38,29 @@ app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 	$scope.places = places;
 });
 
+app.controller('indivCtrl', function ($scope, $http, $location, $routeParams){
+	$scope.places = places;
+	angular.forEach($scope.places, function(value, key){
+		console.log('value is ' + value + ' key is ' + key);
+		if(key + 1 == $routeParams.id) {
+			$scope.place = value;
+			$scope.title = $scope.place.name;
+		}
+	});
+	console.log($scope.place);
+	console.log($routeParams.id);
+	
+	// if (place.item)
+	// $http.get('http://nicolevatland.com/angular/final/js/projects.json').success(function(data){
+ //        angular.forEach(data, function(item) {
+ //          if (item.id == $routeParams.id) {
+ //            $scope.project = item;
+ //        	console.log($scope.project);
+ //        }
+ //    });
+ //    });
+});
+
 var user = [
 	{
 		name: 'Name',
@@ -46,15 +69,18 @@ var user = [
 ];
 var places = [
 	{
-		name: 'place name',
-		img: 'images/places4.jpg'
+		id: 1,
+		name: 'Sky Diving',
+		img: 'images/skydive.jpg'
 	},
 	{
-		name: 'place name',
-		img: 'images/places5.jpg'
+		id: 2,
+		name: 'Carnival',
+		img: 'images/carnival.jpg'
 	},
 	{
-		name: 'place name',
+		id: 3,
+		name: 'Paris',
 		img: 'images/places4.jpg'
 	}
-]
+];
