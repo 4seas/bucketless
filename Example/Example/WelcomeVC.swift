@@ -30,6 +30,9 @@ class WelcomeVC: UIViewController, UITextFieldDelegate {
         tapRecognizer.addTarget(self, action: "didTapView")
         self.view.addGestureRecognizer(tapRecognizer)
 
+        IMFClient.sharedInstance().initializeWithBackendRoute(
+            "https://bmmfs2.mybluemix.net", backendGUID: "89621389-967e-4ec1-a280-028abf5efd27");
+
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

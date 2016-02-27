@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584FBE60EA221E0FA745F058 /* libPods-iBucket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 883E3AD68D274532F821E27E /* libPods-iBucket.a */; };
 		814D32D91C816B8E00F49FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32D81C816B8E00F49FD7 /* AppDelegate.swift */; };
 		814D32DE1C816B8E00F49FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814D32DC1C816B8E00F49FD7 /* Main.storyboard */; };
 		814D32E01C816B8E00F49FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814D32DF1C816B8E00F49FD7 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35CB8EF81C823F510070A6C7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		814D32D51C816B8E00F49FD7 /* iBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814D32D81C816B8E00F49FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814D32DD1C816B8E00F49FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +44,9 @@
 		814D33121C82114D00F49FD7 /* RMParallaxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallaxItem.swift; sourceTree = "<group>"; };
 		816D03131C8212FF00E658B8 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		816D03151C8237D500E658B8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		883E3AD68D274532F821E27E /* libPods-iBucket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBucket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27F16561077934D05ABBC9B /* Pods-iBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBucket.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBucket/Pods-iBucket.release.xcconfig"; sourceTree = "<group>"; };
+		FBAA0805547254F83FDC21BB /* Pods-iBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBucket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBucket/Pods-iBucket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584FBE60EA221E0FA745F058 /* libPods-iBucket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364055FC7870B7C1CEDB7222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				883E3AD68D274532F821E27E /* libPods-iBucket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		814D32CC1C816B8E00F49FD7 = {
 			isa = PBXGroup;
 			children = (
+				35CB8EF81C823F510070A6C7 /* Bridging-Header.h */,
 				814D32D71C816B8E00F49FD7 /* iBucket */,
 				814D32D61C816B8E00F49FD7 /* Products */,
+				C579CE16A54122E1FEBD510F /* Pods */,
+				364055FC7870B7C1CEDB7222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +129,15 @@
 			path = RMParallax/RMParallax;
 			sourceTree = "<group>";
 		};
+		C579CE16A54122E1FEBD510F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA0805547254F83FDC21BB /* Pods-iBucket.debug.xcconfig */,
+				B27F16561077934D05ABBC9B /* Pods-iBucket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 814D32E71C816B8E00F49FD7 /* Build configuration list for PBXNativeTarget "iBucket" */;
 			buildPhases = (
+				EC80EB3288653360FB17BD64 /* Check Pods Manifest.lock */,
 				814D32D11C816B8E00F49FD7 /* Sources */,
 				814D32D21C816B8E00F49FD7 /* Frameworks */,
 				814D32D31C816B8E00F49FD7 /* Resources */,
+				74E750F595A8B5702F342AE0 /* Embed Pods Frameworks */,
+				2F708E42EC202749EB84A9BC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +173,11 @@
 				TargetAttributes = {
 					814D32D41C816B8E00F49FD7 = {
 						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -179,6 +213,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F708E42EC202749EB84A9BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBucket/Pods-iBucket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E750F595A8B5702F342AE0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBucket/Pods-iBucket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC80EB3288653360FB17BD64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		814D32D11C816B8E00F49FD7 /* Sources */ = {
@@ -303,23 +385,31 @@
 		};
 		814D32E81C816B8E00F49FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAA0805547254F83FDC21BB /* Pods-iBucket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Duing.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.test1;
 				PRODUCT_NAME = iBucket;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		814D32E91C816B8E00F49FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27F16561077934D05ABBC9B /* Pods-iBucket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Duing.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.test1;
 				PRODUCT_NAME = iBucket;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
