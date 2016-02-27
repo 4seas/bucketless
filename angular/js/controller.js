@@ -39,8 +39,17 @@ app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 });
 
 app.controller('indivCtrl', function ($scope, $http, $location, $routeParams){
-	var controller = this;
+	$scope.places = places;
+	angular.forEach($scope.places, function(value, key){
+		console.log('value is ' + value + ' key is ' + key);
+		if(key + 1 == $routeParams.id) {
+			$scope.place = value;
+			$scope.title = $scope.place.name;
+		}
+	});
+	console.log($scope.place);
 	console.log($routeParams.id);
+	
 	// if (place.item)
 	// $http.get('http://nicolevatland.com/angular/final/js/projects.json').success(function(data){
  //        angular.forEach(data, function(item) {
