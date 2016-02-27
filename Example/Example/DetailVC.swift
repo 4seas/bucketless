@@ -14,9 +14,10 @@ class DetailVC: UIViewController {
     @IBOutlet weak var imageitem: UIImageView!
     @IBOutlet weak var locationname: UILabel!
     var imagename: String!
+    var locationtext: String!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        locationname.text = locationtext
         imageitem!.image = UIImage(named: imagename)
     }
 

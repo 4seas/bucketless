@@ -957,19 +957,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="lCr-fj-CSt" firstAttribute="top" secondItem="O31-Fv-1n6" secondAttribute="bottom" constant="10" id="11t-Ae-2iQ"/>
                             <constraint firstItem="hsD-SV-Llh" firstAttribute="top" secondItem="U2Y-ZG-nbX" secondAttribute="bottom" constant="44" id="9VC-vY-SbV"/>
                             <constraint firstItem="wlO-nG-rSk" firstAttribute="top" secondItem="VhG-Dv-Fdd" secondAttribute="bottom" id="CdT-uZ-EnR"/>
+                            <constraint firstItem="U2Y-ZG-nbX" firstAttribute="top" secondItem="lCr-fj-CSt" secondAttribute="bottom" constant="8" id="DEM-CU-Kgt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lCr-fj-CSt" secondAttribute="trailing" constant="8" id="Duo-wG-bVo"/>
                             <constraint firstItem="N3I-GK-wbJ" firstAttribute="top" secondItem="VhG-Dv-Fdd" secondAttribute="bottom" constant="185" id="Jg6-3R-2HW"/>
                             <constraint firstItem="O31-Fv-1n6" firstAttribute="bottom" secondItem="N3I-GK-wbJ" secondAttribute="bottom" id="Piw-Zz-0Gk"/>
-                            <constraint firstItem="lCr-fj-CSt" firstAttribute="leading" secondItem="BA5-Rx-45V" secondAttribute="leadingMargin" id="PyT-6O-Zu4"/>
                             <constraint firstItem="O31-Fv-1n6" firstAttribute="leading" secondItem="BA5-Rx-45V" secondAttribute="leading" id="Ue1-Xo-uux"/>
+                            <constraint firstItem="lCr-fj-CSt" firstAttribute="leading" secondItem="BA5-Rx-45V" secondAttribute="leadingMargin" id="a4N-9p-IgB"/>
                             <constraint firstAttribute="trailing" secondItem="N3I-GK-wbJ" secondAttribute="trailing" id="arC-T3-4c7"/>
-                            <constraint firstItem="U2Y-ZG-nbX" firstAttribute="top" secondItem="lCr-fj-CSt" secondAttribute="bottom" constant="8" symbolic="YES" id="dTu-Aq-DB3"/>
                             <constraint firstItem="U2Y-ZG-nbX" firstAttribute="trailing" secondItem="N3I-GK-wbJ" secondAttribute="trailing" id="hOX-IO-mN0"/>
                             <constraint firstItem="wlO-nG-rSk" firstAttribute="leading" secondItem="O31-Fv-1n6" secondAttribute="leading" id="s0g-v4-QHn"/>
                             <constraint firstItem="wlO-nG-rSk" firstAttribute="trailing" secondItem="N3I-GK-wbJ" secondAttribute="trailing" id="se7-mH-meQ"/>
                             <constraint firstItem="U2Y-ZG-nbX" firstAttribute="leading" secondItem="O31-Fv-1n6" secondAttribute="leading" id="tKv-he-mLX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lCr-fj-CSt" secondAttribute="trailing" constant="8" id="vD7-SP-Mdz"/>
                             <constraint firstItem="N3I-GK-wbJ" firstAttribute="leading" secondItem="O31-Fv-1n6" secondAttribute="trailing" id="xUn-0Y-pWV"/>
                             <constraint firstItem="O31-Fv-1n6" firstAttribute="top" secondItem="N3I-GK-wbJ" secondAttribute="top" id="yWN-qe-8cv"/>
                         </constraints>
@@ -982,21 +983,22 @@
                                 <exclude reference="lCr-fj-CSt"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9VC-vY-SbV"/>
-                                <exclude reference="PyT-6O-Zu4"/>
-                                <exclude reference="vD7-SP-Mdz"/>
-                                <exclude reference="Jg6-3R-2HW"/>
-                                <exclude reference="arC-T3-4c7"/>
-                                <exclude reference="xUn-0Y-pWV"/>
-                                <exclude reference="Piw-Zz-0Gk"/>
-                                <exclude reference="Ue1-Xo-uux"/>
-                                <exclude reference="yWN-qe-8cv"/>
-                                <exclude reference="dTu-Aq-DB3"/>
-                                <exclude reference="hOX-IO-mN0"/>
-                                <exclude reference="tKv-he-mLX"/>
                                 <exclude reference="CdT-uZ-EnR"/>
                                 <exclude reference="s0g-v4-QHn"/>
                                 <exclude reference="se7-mH-meQ"/>
+                                <exclude reference="Piw-Zz-0Gk"/>
+                                <exclude reference="Ue1-Xo-uux"/>
+                                <exclude reference="yWN-qe-8cv"/>
+                                <exclude reference="11t-Ae-2iQ"/>
+                                <exclude reference="Duo-wG-bVo"/>
+                                <exclude reference="a4N-9p-IgB"/>
+                                <exclude reference="Jg6-3R-2HW"/>
+                                <exclude reference="arC-T3-4c7"/>
+                                <exclude reference="xUn-0Y-pWV"/>
+                                <exclude reference="DEM-CU-Kgt"/>
+                                <exclude reference="hOX-IO-mN0"/>
+                                <exclude reference="tKv-he-mLX"/>
+                                <exclude reference="9VC-vY-SbV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1008,21 +1010,22 @@
                                 <include reference="lCr-fj-CSt"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9VC-vY-SbV"/>
-                                <include reference="PyT-6O-Zu4"/>
-                                <include reference="vD7-SP-Mdz"/>
-                                <include reference="Jg6-3R-2HW"/>
-                                <include reference="arC-T3-4c7"/>
-                                <include reference="xUn-0Y-pWV"/>
-                                <include reference="Piw-Zz-0Gk"/>
-                                <include reference="Ue1-Xo-uux"/>
-                                <include reference="yWN-qe-8cv"/>
-                                <include reference="dTu-Aq-DB3"/>
-                                <include reference="hOX-IO-mN0"/>
-                                <include reference="tKv-he-mLX"/>
                                 <include reference="CdT-uZ-EnR"/>
                                 <include reference="s0g-v4-QHn"/>
                                 <include reference="se7-mH-meQ"/>
+                                <include reference="Piw-Zz-0Gk"/>
+                                <include reference="Ue1-Xo-uux"/>
+                                <include reference="yWN-qe-8cv"/>
+                                <include reference="11t-Ae-2iQ"/>
+                                <include reference="Duo-wG-bVo"/>
+                                <include reference="a4N-9p-IgB"/>
+                                <include reference="Jg6-3R-2HW"/>
+                                <include reference="arC-T3-4c7"/>
+                                <include reference="xUn-0Y-pWV"/>
+                                <include reference="DEM-CU-Kgt"/>
+                                <include reference="hOX-IO-mN0"/>
+                                <include reference="tKv-he-mLX"/>
+                                <include reference="9VC-vY-SbV"/>
                             </mask>
                         </variation>
                     </view>

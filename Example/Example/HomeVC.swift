@@ -13,7 +13,7 @@ class HomeVC: UITableViewController{
     var names : [String] = ["Go to Paris", "Ride Camels in the Sahara", "Visit Machu Picchu"]
     var locationnames: [String] = ["Paris", "Sahara Desert", "Peru"]
     var images = ["paris", "ridecamels", "machu"]
-    var whocreated = ["You created a dream","Jack completed a dream", "Felix is looking for friends to go"]
+    var whocreated = ["You created a dream","Jack completed a dream", "Felix is looking for friends to go with"]
     var currentindex = 0
        override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ class HomeVC: UITableViewController{
     
    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 2
+        return 3
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -73,6 +73,8 @@ class HomeVC: UITableViewController{
         if(segue.identifier == "detail"){
         let vc: DetailVC = segue.destinationViewController as! DetailVC
         vc.imagename = images[currentindex]
+        vc.locationtext = locationnames[currentindex]
+        
         }
         /*
         let detailview  = segue.destinationViewController as! DetailVC
