@@ -29,20 +29,36 @@
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olz-oj-jLb">
+                        <rect key="frame" x="8" y="268" width="30" height="31"/>
+                        <state key="normal" image="heart"/>
+                        <connections>
+                            <action selector="addtolist:" destination="PIb-0b-jOj" eventType="touchUpInside" id="Y0i-vB-gQ2"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgg-dI-oNs">
+                        <rect key="frame" x="98" y="272" width="25" height="22"/>
+                        <state key="normal" image="check"/>
+                    </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="add" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6b1-tu-qDu">
-                        <rect key="frame" x="51" y="275" width="39" height="21"/>
+                        <rect key="frame" x="46" y="273" width="39" height="21"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-XA-5Vp">
-                        <rect key="frame" x="19" y="274" width="24" height="24"/>
-                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="complete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENU-DE-Rsn">
+                        <rect key="frame" x="131" y="272" width="78" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </tableViewCellContentView>
             <connections>
-                <outlet property="addimage" destination="dRi-XA-5Vp" id="cFy-4R-Edy"/>
+                <outlet property="add" destination="Olz-oj-jLb" id="M6o-6F-8aC"/>
                 <outlet property="addlabel" destination="6b1-tu-qDu" id="azT-r0-jNa"/>
+                <outlet property="complete" destination="kgg-dI-oNs" id="l8e-Pr-oQ8"/>
+                <outlet property="completelist" destination="kgg-dI-oNs" id="UAn-xX-HRq"/>
                 <outlet property="createdat" destination="bN7-x8-LXC" id="uGP-bC-yfG"/>
                 <outlet property="imagecell" destination="R4L-C4-DhD" id="8Mm-gQ-opx"/>
                 <outlet property="name" destination="Bf4-ag-YwM" id="uEn-0m-ZhC"/>
@@ -51,6 +67,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="add" width="30" height="31"/>
+        <image name="check" width="30" height="22"/>
+        <image name="heart" width="30" height="27"/>
     </resources>
 </document>

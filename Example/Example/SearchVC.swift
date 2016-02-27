@@ -8,9 +8,10 @@
 
 import UIKit
 
-class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    var names : [String] = ["Top 10 Bucket Dreams", "2016 Popular Bucket Restaurants"]
-    var images = ["paris", "london"]
+class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
+    var names : [String] = ["Top 10 Destinations", "2016 Popular Bucket Restaurants", "Top 5 Activities", ""]
+    var images = ["paris", "restaurant"]
+    var taglines = []
     @IBOutlet var tableview: UITableView!
     @IBOutlet weak var search: UISearchBar!
     override func viewDidLoad() {
@@ -24,9 +25,13 @@ class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        if(searchText == "paris"){
+            
+        }
+    }
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 2
+        return 4
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1

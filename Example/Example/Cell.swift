@@ -11,8 +11,9 @@ import UIKit
 class Cell: UITableViewCell {
     @IBOutlet var imagecell: UIImageView!
     @IBOutlet var name: UILabel!
-    @IBOutlet var createdat: UILabel!
-    @IBOutlet var addimage: UIImageView!
+    @IBOutlet weak var add: UIButton!
+    @IBOutlet weak var complete: UIButton!
+    @IBOutlet var createdat: UILabel?
     @IBOutlet var addlabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,4 +26,7 @@ class Cell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func addtolist(sender: AnyObject) {
+    }
+    @IBOutlet weak var completelist: UIButton!
 }
