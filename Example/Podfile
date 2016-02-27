@@ -1,0 +1,4 @@
+target 'iBucket' do
+pod 'IMFCore'
+pod 'IMFPush'
+end
