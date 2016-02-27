@@ -8,28 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		814D32D91C816B8E00F49FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32D81C816B8E00F49FD7 /* AppDelegate.swift */; };
-		814D32DB1C816B8E00F49FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32DA1C816B8E00F49FD7 /* ViewController.swift */; };
 		814D32DE1C816B8E00F49FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814D32DC1C816B8E00F49FD7 /* Main.storyboard */; };
 		814D32E01C816B8E00F49FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814D32DF1C816B8E00F49FD7 /* Assets.xcassets */; };
 		814D32E31C816B8E00F49FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814D32E11C816B8E00F49FD7 /* LaunchScreen.storyboard */; };
-		814D32EC1C81709200F49FD7 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 814D32EB1C81709200F49FD7 /* basketball.png */; };
 		814D32EE1C81715E00F49FD7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32ED1C81715E00F49FD7 /* HomeVC.swift */; };
 		814D32F71C81813F00F49FD7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32F51C81813F00F49FD7 /* Cell.swift */; };
 		814D32F81C81813F00F49FD7 /* Cells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814D32F61C81813F00F49FD7 /* Cells.xib */; };
+		814D32FA1C81887C00F49FD7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32F91C81887C00F49FD7 /* ProfileVC.swift */; };
+		814D32FC1C82007200F49FD7 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32FB1C82007200F49FD7 /* SearchVC.swift */; };
+		814D32FE1C82063B00F49FD7 /* DiscoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814D32FD1C82063B00F49FD7 /* DiscoverCell.xib */; };
+		814D33001C82065300F49FD7 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D32FF1C82065300F49FD7 /* DiscoverCell.swift */; };
+		814D33191C82114D00F49FD7 /* RMParallax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D33111C82114D00F49FD7 /* RMParallax.swift */; };
+		814D331A1C82114D00F49FD7 /* RMParallaxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D33121C82114D00F49FD7 /* RMParallaxItem.swift */; };
+		816D03141C8212FF00E658B8 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03131C8212FF00E658B8 /* WelcomeVC.swift */; };
+		816D03161C8237D500E658B8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03151C8237D500E658B8 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		814D32D51C816B8E00F49FD7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814D32D81C816B8E00F49FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		814D32DA1C816B8E00F49FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		814D32DD1C816B8E00F49FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814D32DF1C816B8E00F49FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814D32E21C816B8E00F49FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814D32E41C816B8E00F49FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		814D32EB1C81709200F49FD7 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
 		814D32ED1C81715E00F49FD7 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		814D32F51C81813F00F49FD7 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		814D32F61C81813F00F49FD7 /* Cells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cells.xib; sourceTree = "<group>"; };
+		814D32F91C81887C00F49FD7 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		814D32FB1C82007200F49FD7 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		814D32FD1C82063B00F49FD7 /* DiscoverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCell.xib; sourceTree = "<group>"; };
+		814D32FF1C82065300F49FD7 /* DiscoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
+		814D33111C82114D00F49FD7 /* RMParallax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallax.swift; sourceTree = "<group>"; };
+		814D33121C82114D00F49FD7 /* RMParallaxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallaxItem.swift; sourceTree = "<group>"; };
+		816D03131C8212FF00E658B8 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		816D03151C8237D500E658B8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +74,41 @@
 		814D32D71C816B8E00F49FD7 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				814D33101C82114D00F49FD7 /* RMParallax */,
 				814D32D81C816B8E00F49FD7 /* AppDelegate.swift */,
-				814D32DA1C816B8E00F49FD7 /* ViewController.swift */,
 				814D32DC1C816B8E00F49FD7 /* Main.storyboard */,
+				816D03131C8212FF00E658B8 /* WelcomeVC.swift */,
+				816D03151C8237D500E658B8 /* SignUpVC.swift */,
+				814D32FB1C82007200F49FD7 /* SearchVC.swift */,
+				814D32F91C81887C00F49FD7 /* ProfileVC.swift */,
 				814D32ED1C81715E00F49FD7 /* HomeVC.swift */,
-				814D32F51C81813F00F49FD7 /* Cell.swift */,
-				814D32F61C81813F00F49FD7 /* Cells.xib */,
-				814D32EB1C81709200F49FD7 /* basketball.png */,
+				814D33011C82066300F49FD7 /* Cells */,
 				814D32DF1C816B8E00F49FD7 /* Assets.xcassets */,
 				814D32E11C816B8E00F49FD7 /* LaunchScreen.storyboard */,
 				814D32E41C816B8E00F49FD7 /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		814D33011C82066300F49FD7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				814D32FF1C82065300F49FD7 /* DiscoverCell.swift */,
+				814D32FD1C82063B00F49FD7 /* DiscoverCell.xib */,
+				814D32F51C81813F00F49FD7 /* Cell.swift */,
+				814D32F61C81813F00F49FD7 /* Cells.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		814D33101C82114D00F49FD7 /* RMParallax */ = {
+			isa = PBXGroup;
+			children = (
+				814D33111C82114D00F49FD7 /* RMParallax.swift */,
+				814D33121C82114D00F49FD7 /* RMParallaxItem.swift */,
+			);
+			name = RMParallax;
+			path = RMParallax/RMParallax;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814D32FE1C82063B00F49FD7 /* DiscoverCell.xib in Resources */,
 				814D32E31C816B8E00F49FD7 /* LaunchScreen.storyboard in Resources */,
 				814D32E01C816B8E00F49FD7 /* Assets.xcassets in Resources */,
-				814D32EC1C81709200F49FD7 /* basketball.png in Resources */,
 				814D32F81C81813F00F49FD7 /* Cells.xib in Resources */,
 				814D32DE1C816B8E00F49FD7 /* Main.storyboard in Resources */,
 			);
@@ -149,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814D33191C82114D00F49FD7 /* RMParallax.swift in Sources */,
+				816D03141C8212FF00E658B8 /* WelcomeVC.swift in Sources */,
+				814D32FC1C82007200F49FD7 /* SearchVC.swift in Sources */,
+				814D32FA1C81887C00F49FD7 /* ProfileVC.swift in Sources */,
 				814D32EE1C81715E00F49FD7 /* HomeVC.swift in Sources */,
-				814D32DB1C816B8E00F49FD7 /* ViewController.swift in Sources */,
+				814D331A1C82114D00F49FD7 /* RMParallaxItem.swift in Sources */,
+				814D33001C82065300F49FD7 /* DiscoverCell.swift in Sources */,
 				814D32F71C81813F00F49FD7 /* Cell.swift in Sources */,
+				816D03161C8237D500E658B8 /* SignUpVC.swift in Sources */,
 				814D32D91C816B8E00F49FD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

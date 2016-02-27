@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>iBucket</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="iBucket" ng-controller="indexController">
+	<section class="header">
+		<h1 class="header__text">{{hello}}</h1>
+	</section>
+	<div ng-view></div>
+</body>
+</html>

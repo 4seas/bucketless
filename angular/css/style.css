@@ -1,0 +1,84 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;}
+#container {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: relative;
+	background: url(images/places4.jpg);
+	background-size: cover;
+}
+div.container-login {
+}
+#header {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+#header h1 {
+	font-weight: 100;
+}
+nav {
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+nav a {
+	padding: 20px;
+}
+nav a:last-child {
+	padding-right: 0;
+}
+nav a img {
+	width: 50%;
+}
+form {
+	background: linear-gradient(45deg, rgba(225, 88, 160, 0.7) 0%,rgba(39, 170, 225, 0.7) 100%);
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+form input {
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: rgba(60, 60, 60, 0.65);
+	margin-bottom: 10px;
+	border-radius: 100px;
+	border: 0;
+	outline: 0;
+}
+form .button {
+	width: 110px;
+	background-color: #E158A0;
+	padding: 10px 0;
+	margin: 5px 0 0;
+	border-radius: 100px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color:#fff;
+}
+.logo_title {
+	color: #fff;
+	padding-bottom: 20%;
+}
