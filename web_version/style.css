@@ -3,15 +3,18 @@ html, body {
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: #ccc;
-	font-family: 'Open Sans';
+/*	background-color: #ccc;
+*/	font-family: 'Open Sans';
 }
 #container {
-	width: 375px;
-	height: 667px;
-	margin: 15px auto;
+	width: 100%;
+	height: 100%;
 	background-color: #fff;
 	position: relative;
+	background: url(images/places4.jpg);
+	background-size: cover;
+}
+div.container-login {
 }
 #header {
 	width: 100%;
@@ -45,18 +48,22 @@ nav a img {
 	width: 50%;
 }
 form {
+	background: linear-gradient(45deg, rgba(225, 88, 160, 0.7) 0%,rgba(39, 170, 225, 0.7) 100%);
 	display: flex;
 	flex-direction:column;
 	align-items:center;
 	justify-content:center;
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 	height: 100%;
 }
 form input {
-	width: 100%;
+	width: 80%;
 	padding: 10px 5px;
 	margin-bottom: 10px;
+	border-radius: 100px;
+	border: 0;
+	outline:0;
 }
 form .button {
 	width: 314px;
