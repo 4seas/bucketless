@@ -70,8 +70,10 @@ class HomeVC: UITableViewController{
         
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let vc = DetailVC()
-        vc.imageitem.image = UIImage(named:images[currentindex])
+        if(segue.identifier == "detail"){
+        let vc: DetailVC = segue.destinationViewController as! DetailVC
+        vc.imagename = images[currentindex]
+        }
         /*
         let detailview  = segue.destinationViewController as! DetailVC
         detailview.imageitem.image = UIImage(named:images[currentindex])

@@ -13,17 +13,17 @@ class DetailVC: UIViewController {
     @IBOutlet weak var locationdescrip: UITextView!
     @IBOutlet weak var imageitem: UIImageView!
     @IBOutlet weak var locationname: UILabel!
+    var imagename: String!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        imageitem!.image = UIImage(named: imagename)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
