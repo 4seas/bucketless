@@ -11,6 +11,10 @@ import UIKit
 class Cell: UITableViewCell {
     @IBOutlet var imagecell: UIImageView!
     @IBOutlet var name: UILabel!
+    @IBOutlet var profileimage: UIImageView!
+    @IBOutlet var createdat: UILabel!
+    @IBOutlet var addimage: UIImageView!
+    @IBOutlet var addlabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

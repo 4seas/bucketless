@@ -10,12 +10,12 @@ import UIKit
 
 class HomeVC: UITableViewController{
 
-    var names : [String] = ["Paris", "London"]
+    var names : [String] = ["Go to Paris", "Go to London"]
     var images = ["paris", "london"]
-    var blur = UIBlurEffect()
-    var blurView = UIVisualEffectView()
-    override func viewDidLoad() {
+    var profiles = ["basketball.png", "basketball.png"]
+       override func viewDidLoad() {
         super.viewDidLoad()
+        /*
         let backgroundImage = UIImage(named: "watercolor")
         
         let imageView = UIImageView(image: backgroundImage)
@@ -26,7 +26,7 @@ class HomeVC: UITableViewController{
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame = imageView.bounds
         imageView.addSubview(blurView)
-        
+        */
         
         self.tableView.registerNib(UINib(nibName: "Cells", bundle: nil), forCellReuseIdentifier: "cell")
     }
@@ -49,14 +49,16 @@ class HomeVC: UITableViewController{
         // Configure the cell...
         cell.name.text = names[indexPath.section]
         cell.imagecell.image = UIImage(named: images[indexPath.section])
+        cell.profileimage.image = UIImage(named: profiles[indexPath.section])
+        cell.createdat.text = "created a dream"
         cell.layer.cornerRadius = 10
         return cell
         
     }
      override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 165.0
+        return 300.0
     }
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 100
+    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 10
     }
 }
