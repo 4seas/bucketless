@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "814D32D41C816B8E00F49FD7"
-               BuildableName = "Example.app"
-               BlueprintName = "Example"
-               ReferencedContainer = "container:Example.xcodeproj">
+               BuildableName = "iBucket.app"
+               BlueprintName = "iBucket"
+               ReferencedContainer = "container:iBucket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "814D32D41C816B8E00F49FD7"
-            BuildableName = "Example.app"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BuildableName = "iBucket.app"
+            BlueprintName = "iBucket"
+            ReferencedContainer = "container:iBucket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "814D32D41C816B8E00F49FD7"
-            BuildableName = "Example.app"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BuildableName = "iBucket.app"
+            BlueprintName = "iBucket"
+            ReferencedContainer = "container:iBucket.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "814D32D41C816B8E00F49FD7"
-            BuildableName = "Example.app"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BuildableName = "iBucket.app"
+            BlueprintName = "iBucket"
+            ReferencedContainer = "container:iBucket.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
