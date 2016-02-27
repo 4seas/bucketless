@@ -4,19 +4,23 @@ app.config(function($routeProvider, $locationProvider) {
 	$routeProvider
 	.when('/', {
 		templateUrl: 'templates/login/index.html',
-		controller: 'indexController'
+		controller: 'signInCtrl'
 	})
 	.when('/signup', {
-		templateUrl: 'templates/signup/index.html'
+		templateUrl: 'templates/signup/index.html',
+		controller: 'signUpCtrl'
 	})
 	.when('/featured', {
-		templateUrl: 'templates/featured/index.html'
+		templateUrl: 'templates/featured/index.html',
+		controller: 'featureCtrl'
 	})
 	.when('/search', {
-		templateUrl: 'templates/search/index.html'
+		templateUrl: 'templates/search/index.html',
+		controller: 'searchCtrl'
 	})
 	.when('/profile', {
-		templateUrl: 'templates/profile/index.html'
+		templateUrl: 'templates/profile/index.html',
+		controller: 'profileCtrl'
 	})
 	.otherwise({redirectTo: '/'});
 	
