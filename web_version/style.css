@@ -58,20 +58,23 @@ form {
 	height: 100%;
 }
 form input {
-	width: 80%;
-	padding: 10px 5px;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: rgba(60, 60, 60, 0.65);
 	margin-bottom: 10px;
 	border-radius: 100px;
 	border: 0;
-	outline:0;
+	outline: 0;
 }
 form .button {
-	width: 314px;
-	background-color: rgb(141, 117, 160);
-	padding: 5px 0;
+	width: 90px;
+	background-color: #E158A0;
+	padding: 10px 0;
 	margin: 5px 0 0;
+	border-radius: 100px;
 	text-align: center;
-
 }
 a {
 	text-decoration: none;

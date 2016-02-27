@@ -3,17 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Featured</title>
-	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="wireframe.css">
 </head>
 <body>
 	<div id="container">
-		<section id="header">
-			<h1>search</h1>
+		<section class="header search">
+			<img src="images/search.png" alt="" class="search__icon">
+			<input type="text" class="search__bar" placeholder="Search...">
+			<a href="#" class="search__cancel">Cancel</a>
 		</section>
-		<section>
+		<section class="content content-search">
+			<div class="collection">
+				<a href="list.html" class="collection__a">
+					<h1>Collection name</h1>
+				</a>
+			</div>
+			<div class="collection">
+				<a href="list.html" class="collection__a">
+					<h1>Collection name</h1>
+				</a>
+				
+			</div>
+			<div class="collection">
+				<a href="list.html" class="collection__a">
+					<h1>Collection name</h1>
+				</a>
+			</div>
 		</section>
 		<nav>
-			<a href="list.html"><img src="images/interface.png" alt=""></a>
+			<a href="list.html"><img src="images/home.png" alt=""></a>
 			<a href="search.html" class="search"><img src="images/search.png" alt=""></a>
 			<a href="profile.html"><img src="images/social.png" alt=""></a>
 		</nav>
