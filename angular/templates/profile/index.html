@@ -1,0 +1,21 @@
+<ng-include src="'templates/header.html'"></ng-include>
+<section class="content content-profile">
+	<div class="profile">
+		<div class="profile__img"></div>
+		<div class="profile__data">
+			<p class="profile__data-p">Since {{date | date: 'longDate'}}</p>
+			<h2 class="profile__data-h2">{{user.name}}</h2>
+		</div>
+	</div>
+	<div class="profile-nav">
+		<div class="profile-nav__button"><div class="profile-nav__img-contain"><img src="images/icons/check-3x.png" alt=""></div></div>
+		<div class="profile-nav__button"><div class="profile-nav__img-contain"><img src="images/icons/heart-3x.png" alt=""></div></div>
+	</div>
+	<div ng-repeat="place in places" class="place-contain">
+		<div class="place" ng-style="{'background-image':'url({{place.img}})'}">
+			<div class="place__gradient"></div>
+			<h1 class="place__h1">{{place.name}}</h1>
+		</div>
+	</div>
+</section>
+<ng-include src="'templates/footer.html'"></ng-include>
