@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		814D32D51C816B8E00F49FD7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814D32D51C816B8E00F49FD7 /* iBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814D32D81C816B8E00F49FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814D32DD1C816B8E00F49FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814D32DF1C816B8E00F49FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		814D32CC1C816B8E00F49FD7 = {
 			isa = PBXGroup;
 			children = (
-				814D32D71C816B8E00F49FD7 /* Example */,
+				814D32D71C816B8E00F49FD7 /* iBucket */,
 				814D32D61C816B8E00F49FD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,12 +66,12 @@
 		814D32D61C816B8E00F49FD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				814D32D51C816B8E00F49FD7 /* Example.app */,
+				814D32D51C816B8E00F49FD7 /* iBucket.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		814D32D71C816B8E00F49FD7 /* Example */ = {
+		814D32D71C816B8E00F49FD7 /* iBucket */ = {
 			isa = PBXGroup;
 			children = (
 				814D33101C82114D00F49FD7 /* RMParallax */,
@@ -87,6 +87,7 @@
 				814D32E11C816B8E00F49FD7 /* LaunchScreen.storyboard */,
 				814D32E41C816B8E00F49FD7 /* Info.plist */,
 			);
+			name = iBucket;
 			path = Example;
 			sourceTree = "<group>";
 		};
@@ -114,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		814D32D41C816B8E00F49FD7 /* Example */ = {
+		814D32D41C816B8E00F49FD7 /* iBucket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 814D32E71C816B8E00F49FD7 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 814D32E71C816B8E00F49FD7 /* Build configuration list for PBXNativeTarget "iBucket" */;
 			buildPhases = (
 				814D32D11C816B8E00F49FD7 /* Sources */,
 				814D32D21C816B8E00F49FD7 /* Frameworks */,
@@ -126,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = iBucket;
 			productName = Example;
-			productReference = 814D32D51C816B8E00F49FD7 /* Example.app */;
+			productReference = 814D32D51C816B8E00F49FD7 /* iBucket.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 814D32D01C816B8E00F49FD7 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 814D32D01C816B8E00F49FD7 /* Build configuration list for PBXProject "iBucket" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -159,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				814D32D41C816B8E00F49FD7 /* Example */,
+				814D32D41C816B8E00F49FD7 /* iBucket */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +308,7 @@
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Duing.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iBucket;
 			};
 			name = Debug;
 		};
@@ -318,14 +319,14 @@
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Duing.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iBucket;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		814D32D01C816B8E00F49FD7 /* Build configuration list for PBXProject "Example" */ = {
+		814D32D01C816B8E00F49FD7 /* Build configuration list for PBXProject "iBucket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814D32E51C816B8E00F49FD7 /* Debug */,
@@ -334,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		814D32E71C816B8E00F49FD7 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		814D32E71C816B8E00F49FD7 /* Build configuration list for PBXNativeTarget "iBucket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814D32E81C816B8E00F49FD7 /* Debug */,
