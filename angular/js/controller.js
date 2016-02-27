@@ -32,5 +32,29 @@ app.controller('searchCtrl', function ($scope, $location, $routeParams) {
 
 app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 	$scope.header = true;
-	$scope.title = 'Profile';
+	$scope.title = 'My Profile';
+	$scope.date = Date.now();
+	$scope.user = user[0];
+	$scope.places = places;
 });
+
+var user = [
+	{
+		name: 'Name',
+		img: 'images/users/0/pic.jpg'
+	}
+];
+var places = [
+	{
+		name: 'place name',
+		img: 'images/places4.jpg'
+	},
+	{
+		name: 'place name',
+		img: 'images/places5.jpg'
+	},
+	{
+		name: 'place name',
+		img: 'images/places4.jpg'
+	}
+]
