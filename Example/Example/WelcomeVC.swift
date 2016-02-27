@@ -8,11 +8,9 @@
 
 import UIKit
 
-class WelcomeVC: UIViewController {
+class WelcomeVC: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var usernamefield: UITextField!
-    @IBOutlet weak var passwordfield: UITextField!
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
 
         let item1 = RMParallaxItem(image: UIImage(named: "eiffel")!, text: "blah blah blah")
@@ -38,6 +36,8 @@ class WelcomeVC: UIViewController {
         textField.resignFirstResponder()
         return true
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

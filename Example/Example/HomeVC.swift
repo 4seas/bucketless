@@ -61,4 +61,9 @@ class HomeVC: UITableViewController{
     override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 10
     }
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("detail", sender: self)
+    }
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+    }
 }

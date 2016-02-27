@@ -21,6 +21,7 @@
 		814D33191C82114D00F49FD7 /* RMParallax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D33111C82114D00F49FD7 /* RMParallax.swift */; };
 		814D331A1C82114D00F49FD7 /* RMParallaxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D33121C82114D00F49FD7 /* RMParallaxItem.swift */; };
 		816D03141C8212FF00E658B8 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03131C8212FF00E658B8 /* WelcomeVC.swift */; };
+		816D03161C8237D500E658B8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816D03151C8237D500E658B8 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		814D33111C82114D00F49FD7 /* RMParallax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallax.swift; sourceTree = "<group>"; };
 		814D33121C82114D00F49FD7 /* RMParallaxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallaxItem.swift; sourceTree = "<group>"; };
 		816D03131C8212FF00E658B8 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		816D03151C8237D500E658B8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				814D32D81C816B8E00F49FD7 /* AppDelegate.swift */,
 				814D32DC1C816B8E00F49FD7 /* Main.storyboard */,
 				816D03131C8212FF00E658B8 /* WelcomeVC.swift */,
+				816D03151C8237D500E658B8 /* SignUpVC.swift */,
 				814D32FB1C82007200F49FD7 /* SearchVC.swift */,
 				814D32F91C81887C00F49FD7 /* ProfileVC.swift */,
 				814D32ED1C81715E00F49FD7 /* HomeVC.swift */,
@@ -189,6 +192,7 @@
 				814D331A1C82114D00F49FD7 /* RMParallaxItem.swift in Sources */,
 				814D33001C82065300F49FD7 /* DiscoverCell.swift in Sources */,
 				814D32F71C81813F00F49FD7 /* Cell.swift in Sources */,
+				816D03161C8237D500E658B8 /* SignUpVC.swift in Sources */,
 				814D32D91C816B8E00F49FD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
