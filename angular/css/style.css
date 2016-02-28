@@ -225,10 +225,14 @@ a {
 .person-info {
 	margin: 0 0 0 15px;
 }
+.h1-place {
+	margin-left: 20px;
+}
 .place__desc {
 	font-size: 12px;
 	color: #868686;
 	line-height: 20px;
+	padding: 0 20px;
 }
 .persn-info__h3 {
 	font-size: 20px;
@@ -244,6 +248,38 @@ color: #4C4C4C;
 	font-size: 17px;
 }
 .content-individual {
-	padding-bottom: 70px;
+	padding-bottom: 110px;
+}
+.offer {
+	width: 45%;
+	border-radius: 10px;
+	margin: 0 5px;
+	height: 220px;
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.10);
+
+}
+.offer-img {
+	height: 60%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px 10px 0 0;
+}
+.offer-contain {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.offer-details {
+	margin: 10px 0 0 10px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.offer-details h4, .offer-details h5, .offer-details p {
+	margin: 2px;
+}
+
+.descriptive-headers {
+	margin-left: 20px;
 }
 

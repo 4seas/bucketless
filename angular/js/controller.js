@@ -102,13 +102,13 @@ var places = [
 		],
 		offers: [
 			{
-				img: '',
+				img: 'images/offers/1.png',
 				type: 'Offer',
 				price: '180',
 				name: 'Tour Rice'
 			},
 			{
-				img: '',
+				img: 'images/offers/2.png',
 				type: 'Offer',
 				price: '30',
 				name: 'Fortune Teller'
@@ -119,11 +119,93 @@ var places = [
 	{
 		id: 2,
 		name: 'Carnival',
-		img: 'images/carnival.jpg'
+		img: 'images/carnival.jpg',
+		people: [
+			{
+				img: 'images/people/jenni.jpg',
+				name: 'Jenni',
+				status: 'On list',
+				distance: 2
+			},
+			{
+				img: 'images/people/javier.png',
+				name: 'Javier',
+				status: 'Completed',
+				distance: 2
+			},
+			{
+				img: 'images/people/alex.png',
+				name: 'Alex',
+				status: 'On list',
+				distance: 2
+			},
+			{
+				img: 'images/people/gissele.png',
+				name: 'Gissele',
+				status: 'On list',
+				distance: 2
+			}
+		],
+		offers: [
+			{
+				img: 'images/offers/1.png',
+				type: 'Offer',
+				price: '180',
+				name: 'Tour Rice'
+			},
+			{
+				img: 'images/offers/2.png',
+				type: 'Offer',
+				price: '30',
+				name: 'Fortune Teller'
+			}
+
+		]
 	},
 	{
 		id: 3,
 		name: 'Paris',
-		img: 'images/places4.jpg'
+		img: 'images/places4.jpg',
+		people: [
+			{
+				img: 'images/people/jenni.jpg',
+				name: 'Jenni',
+				status: 'On list',
+				distance: 2
+			},
+			{
+				img: 'images/people/javier.png',
+				name: 'Javier',
+				status: 'Completed',
+				distance: 2
+			},
+			{
+				img: 'images/people/alex.png',
+				name: 'Alex',
+				status: 'On list',
+				distance: 2
+			},
+			{
+				img: 'images/people/gissele.png',
+				name: 'Gissele',
+				status: 'On list',
+				distance: 2
+			}
+		],
+		offers: [
+			{
+				img: 'images/offers/1.png',
+				type: 'Offer',
+				price: '180',
+				name: 'Tour Rice'
+			},
+			{
+				img: 'images/offers/2.png',
+				type: 'Offer',
+				price: '30',
+				name: 'Fortune Teller'
+			}
+
+		]
 	}
 ];

@@ -6,9 +6,9 @@
 		<div class="profile-nav__button"><div class="profile-nav__img-contain"><img src="images/icons/check-3x.png" alt=""></div></div>
 		<div class="profile-nav__button"><div class="profile-nav__img-contain"><img src="images/icons/heart-3x.png" alt=""></div></div>
 	</div>
-	<h1>{{place.long_name}}</h1>
+	<h1 class="h1-place">{{place.long_name}}</h1>
 	<p class="place__desc">{{place.desc}}</p>
-	<h3>People that have done this...</h3>
+	<h3 class="descriptive-headers">People that have done this...</h3>
 	<div class="person_contain">
 		<div ng-repeat="person in place.people" class="person">
 			<div class="person__img"><img ng-src="{{person.img}}" alt=""></div>
@@ -19,9 +19,16 @@
 			</div>
 		</div>
 	</div>
-	<h3>Offers</h3>
-	<div class="offers_contain">
-		<div ng-repeat="offer in place.offers"></div>
+	<h3 class="descriptive-headers">Offers</h3>
+	<div class="offer-contain">
+		<div ng-repeat="offer in place.offers" class="offer">
+			<div class="offer-img" ng-style="{'background-image': 'url({{offer.img}})'}"></div>
+			<div class="offer-details">
+				<p>{{offer.type}}</p>
+				<h4>${{offer.price}}</h4>
+				<h5>{{offer.name}}</h5>
+			</div>
+		</div>
 	</div>
 </section>
 <ng-include src="'templates/footer.html'"></ng-include>
