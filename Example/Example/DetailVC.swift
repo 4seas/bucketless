@@ -58,9 +58,17 @@ class DetailVC: UIViewController, UITableViewDataSource, UITableViewDelegate{
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 300.0
     }
+    
     @IBAction func plusclicked(sender: AnyObject) {
         profileimages2.hidden = false
+        let key = "bucketlist"
+        var saveArray : [AnyObject!] = []
+        saveArray.append("paris")
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(saveArray, forKey: key)
+        defaults.synchronize()
     }
+    
     @IBAction func checkclicked(sender: AnyObject) {
         profileimages.hidden = false
     }
