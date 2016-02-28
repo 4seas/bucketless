@@ -49,7 +49,7 @@ app.controller('indivCtrl', function ($scope, $http, $location, $routeParams){
 	});
 	console.log($scope.place);
 	console.log($routeParams.id);
-	
+
 	// if (place.item)
 	// $http.get('http://nicolevatland.com/angular/final/js/projects.json').success(function(data){
  //        angular.forEach(data, function(item) {
@@ -63,8 +63,14 @@ app.controller('indivCtrl', function ($scope, $http, $location, $routeParams){
 
 var user = [
 	{
-		name: 'Name',
-		img: 'images/users/0/pic.jpg'
+		name: 'Catherine',
+		location: 'Irvine, California, USA',
+		img: 'images/people/gissele.png'
+	},
+	{
+		name: 'Alex',
+		location: 'San Diego, California, USA',
+		img: 'images/people/alex.png'
 	}
 ];
 var places = [
