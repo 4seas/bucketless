@@ -39,7 +39,7 @@ class CompletedVC: UITableViewController {
         let cell : Cell = tableView.dequeueReusableCellWithIdentifier("cell") as! Cell
         // Configure the cell...
         cell.name.text = names[indexPath.section]
-        cell.createdat.text = ""
+        cell.createdat!.text = ""
         cell.imagecell.image = UIImage(named: images[indexPath.section])
         cell.layer.cornerRadius = 10
         return cell

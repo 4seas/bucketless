@@ -39,7 +39,7 @@ class ProfileVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Configure the cell...
         cell.name.text = names[indexPath.section]
         cell.imagecell.image = UIImage(named: images[indexPath.section])
-        cell.createdat.text = "created a dream"
+        cell.createdat!.text = "You created a dream"
         cell.layer.cornerRadius = 10
         return cell
         
