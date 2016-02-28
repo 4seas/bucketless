@@ -71,7 +71,50 @@ var places = [
 	{
 		id: 1,
 		name: 'Sky Diving',
-		img: 'images/skydive.jpg'
+		long_name: 'Free Falling',
+		img: 'images/skydive.jpg',
+		desc: 'Artisan four dollar toast readymade, godard selfies VHS dreamcatcher PBR&B cred before they sold out ethical. Truffaut forage aesthetic leggings skateboard, celiac typewriter sartorial. Leggings neutra photo booth vegan synth. Butcher flannel readymade chicharrones kickstarter, +1 microdosing gochujang poutine crucifix meditation tumblr. Sriracha cardigan bespoke drinking vinegar selfies. Forage readymade kinfolk green juice plaid. Echo park tilde gastropub marfa letterpress heirloom brunch lomo, pitchfork jean shorts master cleanse yuccie hoodie ethical artisan.',
+		people: [
+			{
+				img: 'images/people/jenni.jpg',
+				name: 'Jenni',
+				status: 'On list',
+				distance: 2
+			},
+			{
+				img: 'images/people/javier.png',
+				name: 'Javier',
+				status: 'Completed',
+				distance: 2
+			},
+			{
+				img: 'images/people/alex.png',
+				name: 'Alex',
+				status: 'On list',
+				distance: 2
+			},
+			{
+				img: 'images/people/gissele.png',
+				name: 'Gissele',
+				status: 'On list',
+				distance: 2
+			}
+		],
+		offers: [
+			{
+				img: '',
+				type: 'Offer',
+				price: '180',
+				name: 'Tour Rice'
+			},
+			{
+				img: '',
+				type: 'Offer',
+				price: '30',
+				name: 'Fortune Teller'
+			}
+
+		]
 	},
 	{
 		id: 2,
