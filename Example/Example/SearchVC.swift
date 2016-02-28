@@ -9,8 +9,8 @@
 import UIKit
 
 class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
-    var names : [String] = ["Top 10 Destinations", "2016 Popular Bucket Restaurants", "Top 5 Activities", ""]
-    var images = ["paris", "restaurant"]
+    var names : [String] = ["Top 10 Destinations", "2016 Popular Bucket Restaurants", "Top 5 Things to Do", "Best Landmarks to See"]
+    var images = ["Paris", "restaurant", "jumpcliff", "pyramids"]
     var taglines = []
     @IBOutlet var tableview: UITableView!
     @IBOutlet weak var search: UISearchBar!
@@ -26,9 +26,7 @@ class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UI
         // Dispose of any resources that can be recreated.
     }
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
-        if(searchText == "paris"){
-            
-        }
+        
     }
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 4

@@ -10,14 +10,13 @@ import UIKit
 
 class HomeVC: UITableViewController{
 
-    var names : [String] = ["Go to London", "Visit the Eiffel Tower", "Eat Sushi in Tokyo", "Visit the Oriental Pearl", "Go to Berlin", "Visit Montreal", "Go to Caracas", "Visit Dallas", "See the Big Apple"]
-    var locationnames: [String] = ["London", "Paris", "Mexico City", "Tokyo", "Shanghai", "Berlin", "Montreal", "Caracas", "Dallas", "New York"]
+    var names : [String] = ["Go to London", "Visit the Eiffel Tower", "See Mexico City", "Eat Sushi in Tokyo", "Visit the Oriental Pearl", "Go to Berlin", "Visit Montreal", "Go to Caracas", "Visit Dallas", "See the Big Apple"]
+    var locationnames: [String] = ["London", "Paris", "Mexico City", "Tokyo", "Shanghai", "Berlin", "Montreal", "Caracas", "Dallas", "NYC"]
     var images: [String] = ["", ""]
     var whocreated = ["You created a dream","Jack completed a dream", "Felix is looking for friends", "You created a dream", "Jill is looking for friends", "You created a dream", "You created a dream", "You created a dream","You created a dream", "You created a dream"]
     var descriptionsarray: [String] = []
     var offernames: [String] = []
     var offercosts: [String] = []
-    var offerimages: [String] = []
     var currentindex = 0
        override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +42,7 @@ class HomeVC: UITableViewController{
         
      
         
-        cell.imagecell.image = UIImage(named: images[indexPath.section])
+        cell.imagecell.image = UIImage(named: locationnames[indexPath.section])
         
         cell.name.text = names[indexPath.section]
         cell.createdat!.text = whocreated[indexPath.section]
@@ -68,6 +67,8 @@ class HomeVC: UITableViewController{
         let vc: DetailVC = segue.destinationViewController as! DetailVC
         vc.imagename = images[currentindex]
         vc.locationtext = locationnames[currentindex]
+        vc.dealcost = offercosts[currentindex]
+        vc.dealname = offernames[currentindex]
     
     }
     @IBAction func unwind(segue: UIStoryboardSegue) {
@@ -89,9 +90,7 @@ class HomeVC: UITableViewController{
                         images.append("\(image)")
                         offernames.append("\(offertitle)")
                         offercosts.append("\(offercost)")
-                        offerimages.append("\(offerimage)")
-
-                    }
+            }
                     print("jsonData:\(jsonObj)")
                 } else {
                     print("could not get json from file, make sure that file contains valid json.")
