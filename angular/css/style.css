@@ -18,7 +18,7 @@ html, body {
 }
 .nav {
 	height: 70px;
-	width: 100%; 
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -130,6 +130,7 @@ a {
 	height: 20vw;
 	border-radius: 50%;
 	background-color: rgba(76,76,76,0.5);
+	background: url(../images/people/gissele.png);
 	margin: 0 30px;
 }
 .profile__data-p {
@@ -173,7 +174,7 @@ a {
 .place-contain {
 	width: 95%;
 	margin: 10px auto;
-	
+
 }
 .place {
 	width: 100%;
@@ -282,4 +283,3 @@ color: #4C4C4C;
 .descriptive-headers {
 	margin-left: 20px;
 }
-
