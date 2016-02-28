@@ -1,0 +1,39 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="770" measuredH="322" mockupW="645" mockupH="311">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="552" y="60" w="200" h="88" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>At%20the%20moment%20when%20they%20log%20on%2C%20record%20their%20location%20and%20send%20the%20geo%20data%20to%20server.%20This%20will%20be%20sorted%20based%20on%20X%2C%20Y%20coordinates</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="552" y="11" w="-1" h="-1" measuredW="218" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Other%20users</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="198" y="11" w="-1" h="-1" measuredW="55" measuredH="43" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Me</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="125" y="199" w="200" h="60" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>When%20I%20initiate%20a%20search%2C%20first%20determine%20my%20location%20and%20store%20my%20X%2C%20Y%20coordinates</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="365" y="11" w="-1" h="-1" measuredW="125" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Server</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="340" y="148" w="200" h="46" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20the%20new%20entry%20to%20the%20list%20and%20sort</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="340" y="259" w="200" h="63" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Search%20through%20the%20list%20and%20find%20all%20matches%20that%20meet%20%7CX1-X2%7C%3C100%20%26%26%20%7CY1-Y2%7C%3C100</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
