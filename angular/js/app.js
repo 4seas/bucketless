@@ -22,10 +22,14 @@ app.config(function($routeProvider, $locationProvider) {
 		templateUrl: 'templates/profile/index.html',
 		controller: 'profileCtrl'
 	})
+	.when('/cities/:id', {
+		templateUrl: 'templates/city/city.html',
+		controller: 'indivCtrl'
+	})
 	.when('/places/:id', {
 		templateUrl: 'templates/individual/index.html',
 		controller: 'indivCtrl'
 	});
 	// .otherwise({redirectTo: '/'});
-	
+
 });
