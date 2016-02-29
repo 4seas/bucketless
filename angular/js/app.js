@@ -15,7 +15,7 @@ app.config(function($routeProvider, $locationProvider) {
 		controller: 'featureCtrl'
 	})
 	.when('/search', {
-		templateUrl: 'templates/search/index.html',
+		templateUrl: 'templates/search/search.html',
 		controller: 'searchCtrl'
 	})
 	.when('/profile', {

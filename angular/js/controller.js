@@ -29,6 +29,7 @@ app.controller('featureCtrl', function ($scope, $location, $routeParams) {
 app.controller('searchCtrl', function ($scope, $location, $routeParams) {
 	$scope.header = true;
 	$scope.title = 'Search';
+	$scope.collections = collections;
 });
 
 app.controller('profileCtrl', function ($scope, $location, $routeParams) {
@@ -329,4 +330,24 @@ var cities =
         "image_offer": "http://res.cloudinary.com/dk/image/upload/q_80,c_fit,w_1200,h_630/new-york/solomon-guggenheim-museum.jpg"
      }
 
+];
+
+var collections =
+[
+	{
+		"caption":"Top 10 Things to Do",
+		"image": "jumpcliff"
+	},
+	{
+		"caption": "2016 Popular Bucket Restaurants",
+		"image": "restaurant"
+	},
+	{
+		"caption": "Top 5 Destinations",
+		"image": "Paris"
+	},
+	{
+		"caption": "Best Landmarks to See",
+		"image": "pyramids"
+	}
 ];
