@@ -7,11 +7,11 @@ app.config(function($routeProvider, $locationProvider) {
 		controller: 'signInCtrl'
 	})
 	.when('/signup', {
-		templateUrl: 'templates/signup/index.html',
+		templateUrl: 'templates/signup/signup.html',
 		controller: 'signUpCtrl'
 	})
 	.when('/featured', {
-		templateUrl: 'templates/featured/index.html',
+		templateUrl: 'templates/featured/featured.html',
 		controller: 'featureCtrl'
 	})
 	.when('/search', {
@@ -19,7 +19,7 @@ app.config(function($routeProvider, $locationProvider) {
 		controller: 'searchCtrl'
 	})
 	.when('/profile', {
-		templateUrl: 'templates/profile/index.html',
+		templateUrl: 'templates/profile/profile.html',
 		controller: 'profileCtrl'
 	})
 	.when('/cities/:id', {
@@ -27,7 +27,7 @@ app.config(function($routeProvider, $locationProvider) {
 		controller: 'indivCtrl'
 	})
 	.when('/places/:id', {
-		templateUrl: 'templates/individual/index.html',
+		templateUrl: 'templates/individual/individual.html',
 		controller: 'indivCtrl'
 	});
 	// .otherwise({redirectTo: '/'});
