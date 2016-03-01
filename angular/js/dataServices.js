@@ -258,20 +258,58 @@ var collections =
 	{
 		id: 1,
 		"caption":"Top 10 Things to Do",
-		"image": "jumpcliff"
+		"collectionImage": "jumpcliff",
+    "names": [
+        "Skydiving",
+        "Eat, Pray, Love Bali.",
+        "Run along the great wall of China.",
+        "Experience a carnival in Brazil.",
+        "See the Northern Lights.",
+        "Shoot a sniper rifle.",
+        "Heli Surf in Brazil.",
+        "Go on a Safari.",
+        "Learn an instrument.",
+        "Write a book."
+    ],
+    "images": [
+      "n1",
+      "n2",
+      "n3",
+      "n4",
+      "n5",
+      "n6",
+      "n7",
+      "n8",
+      "n9",
+      "n10"
+    ]
 	},
 	{
 		id: 2,
 		"caption": "2016 Popular Bucket Restaurants",
-		"image": "restaurant"
+		"collectionImage": "restaurant",
+    "names":  [
+      "Melisse",
+      "Naka",
+      "Babbo Ristorante",
+      "Mesa Grill",
+      "Le Petit Four"
+    ],
+    "images": [
+      "Melisse",
+      "nnaka",
+      "Babbo",
+      "Mesa",
+      "npt"
+    ]
 	},
 	{
 		id: 3,
 		"caption": "Top 5 Destinations",
-		"image": "Paris"
+		"collectionImage": "Paris"
 	},
 	{
 		"caption": "Best Landmarks to See",
-		"image": "pyramids"
+		"collectionImage": "pyramids"
 	}
 ];
