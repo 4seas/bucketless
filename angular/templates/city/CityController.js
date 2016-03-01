@@ -1,3 +1,8 @@
+app.controller('cityCtrl', function ($scope, $location, $routeParams) {
+	$scope.header = true;
+  $scope.cities = cities;
+});
+
 var cities =
 [
   {

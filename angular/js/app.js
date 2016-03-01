@@ -3,7 +3,7 @@ var app = angular.module('iBucket', ['ngRoute']);
 app.config(function($routeProvider, $locationProvider) {
 	$routeProvider
 	.when('/', {
-		templateUrl: 'templates/login/index.html',
+		templateUrl: 'templates/login/login.html',
 		controller: 'signInCtrl'
 	})
 	.when('/signup', {
@@ -24,11 +24,11 @@ app.config(function($routeProvider, $locationProvider) {
 	})
 	.when('/cities/:id', {
 		templateUrl: 'templates/city/city.html',
-		controller: 'indivCtrl'
+		controller: 'detailCtrl'
 	})
 	.when('/places/:id', {
-		templateUrl: 'templates/individual/individual.html',
-		controller: 'indivCtrl'
+		templateUrl: 'templates/detail/detail.html',
+		controller: 'detailCtrl'
 	});
 	// .otherwise({redirectTo: '/'});
 

@@ -10,7 +10,7 @@
 	<p class="place__desc">{{place.desc}}</p>
 	<h3 class="descriptive-headers">{{peopleLabel}}</h3>
 	<div class="person_contain">
-		<div ng-repeat="person in place.people | filter: {status: byPersonPlaceStatus}" class="person">
+		<div ng-repeat="city in place.people | filter: {status: byPersonPlaceStatus}" class="person">
 			<div class="person__img"><img ng-src="{{person.img}}" alt=""></div>
 			<div class="person-info">
 				<h3 class="person-info__h3">{{person.name}}</h3>

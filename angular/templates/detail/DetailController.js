@@ -1,4 +1,4 @@
-app.controller('indivCtrl', function ($scope, $http, $location, $routeParams){
+app.controller('detailCtrl', function ($scope, $http, $location, $routeParams){
 	$scope.places = places;
 	angular.forEach($scope.places, function(value, key){
 		console.log('value is ' + value + ' key is ' + key);
