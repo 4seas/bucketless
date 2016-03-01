@@ -18,17 +18,14 @@
 				<p class="person-info__p">{{person.distance}} miles away</p>
 			</div>
 		</div>
-	</div>
-	<h3 class="descriptive-headers">Offers</h3>
-	<div class="offer-contain">
-		<div ng-repeat="offer in place.offers" class="offer">
-			<div class="offer-img" ng-style="{'background-image': 'url({{offer.img}})'}"></div>
-			<div class="offer-details">
-				<p>{{offer.type}}</p>
-				<h4>${{offer.price}}</h4>
-				<h5>{{offer.name}}</h5>
-			</div>
-		</div>
 	</div> -->
+	<h3 class="descriptive-headers">Offers</h3>
+	<div class="offer-contain offer" style="width: 100%">
+			<div class="offer-img" style="width: 100%; height: 100%" ng-style="{'background-image': 'url({{city.image_offer}})'}"></div>
+			<div class="offer-details">
+				<p>{{city.title_offer}}</p>
+				<h4>{{city.offer_cost}}</h4>
+			</div>
+	</div>
 </section>
 <ng-include src="'templates/footer.html'"></ng-include>
