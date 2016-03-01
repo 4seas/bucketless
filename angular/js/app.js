@@ -24,7 +24,7 @@ app.config(function($routeProvider, $locationProvider) {
 	})
 	.when('/cities/:id', {
 		templateUrl: 'templates/city/city.html',
-		controller: 'detailCtrl'
+		controller: 'cityCtrl'
 	})
 	.when('/places/:id', {
 		templateUrl: 'templates/detail/detail.html',

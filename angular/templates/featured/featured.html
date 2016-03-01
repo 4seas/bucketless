@@ -7,7 +7,7 @@
 	</div> -->
 	<div ng-repeat="city in cities" class="place-contain">
 		<div class="place" ng-style="{'background-image':'linear-gradient(45deg, rgba(225,88,160,0.8) 0%, rgba(39, 170, 225, 0.36) 55%), url({{city.image}})'}">
-			<a href="#/cities/{{city.id}}" class="place__a"></a>
+			<a href="#/cities/{{$index}}" class="place__a"></a>
 			<h1 class="place__h1">{{city.city}}</h1>
 		</div>
 	</div>
