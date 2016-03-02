@@ -4,4 +4,39 @@ app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 	$scope.date = Date.now();
 	$scope.user = user[0];
 	$scope.places = places;
+
+	$scope.doneList = [];
+	$scope.wishList = [];
+
+	for (var i in places) {
+		var place = places[i];
+		var peopleList = place.people;
+		for (var j in peopleList) {
+			var person = peopleList[j];
+			if (person.name == 'Catherine') {
+				if (person.status == 'On list') {
+					$scope.wishList.push(place);
+				} else if (person.status == 'Completed') {
+					$scope.doneList.push(place);
+				}
+			}
+		}
+	}
+
+	$scope.checkClicked = function() {
+		$scope.listStatusLabel = "Dreams accomplished...";
+		$scope.people = places.peopleDoneIt;
+		$scope.byPersonPlaceStatus = 'Completed';
+		$scope.activeList = $scope.doneList;
+	};
+
+	$scope.heartClicked = function() {
+		$scope.listStatusLabel = "On my Bucket List...";
+		$scope.people = places.peopleWantIt;
+		$scope.byPersonPlaceStatus = 'On list';
+		$scope.activeList = $scope.wishList;
+	}
+
+	$scope.checkClicked();
+
 });

@@ -17,31 +17,31 @@ var places = [
 		name: 'Sky Diving',
 		long_name: 'Free Falling',
 		img: 'images/skydive.jpg',
-		desc: 'Artisan four dollar toast readymade, godard selfies VHS dreamcatcher PBR&B cred before they sold out ethical. Truffaut forage aesthetic leggings skateboard, celiac typewriter sartorial. Leggings neutra photo booth vegan synth. Butcher flannel readymade chicharrones kickstarter, +1 microdosing gochujang poutine crucifix meditation tumblr. Sriracha cardigan bespoke drinking vinegar selfies. Forage readymade kinfolk green juice plaid. Echo park tilde gastropub marfa letterpress heirloom brunch lomo, pitchfork jean shorts master cleanse yuccie hoodie ethical artisan.',
+		desc: 'Artisan four dollar toast readymade, godard selfies VHS dreamcatcher PBR&B cred before they sold out ethical. Truffaut forage aesthetic leggings skateboard.', //, celiac typewriter sartorial. Leggings neutra photo booth vegan synth. Butcher flannel readymade chicharrones kickstarter, +1 microdosing gochujang poutine crucifix meditation tumblr. Sriracha cardigan bespoke drinking vinegar selfies. Forage readymade kinfolk green juice plaid. Echo park tilde gastropub marfa letterpress heirloom brunch lomo, pitchfork jean shorts master cleanse yuccie hoodie ethical artisan.',
 		people: [
-			{
+      {
+				img: 'images/people/gissele.png',
+				name: 'Catherine',
+				status: 'On list',
+				distance: 2
+			},
+      {
 				img: 'images/people/alex.png',
 				name: 'Adam',
 				status: 'Completed',
-				distance: 2
-			},
-			{
-				img: 'images/people/gissele.png',
-				name: 'Mindy',
-				status: 'On list',
-				distance: 2
+				distance: 5
 			},
 			{
 				img: 'images/people/jenni.jpg',
 				name: 'Lucy',
 				status: 'On list',
-				distance: 2
+				distance: 15
 			},
 			{
 				img: 'images/people/javier.png',
 				name: 'Alexander',
 				status: 'Completed',
-				distance: 2
+				distance: 7
 			}
 		],
 		offers: [
@@ -65,29 +65,35 @@ var places = [
 		name: 'Carnival',
 		img: 'images/carnival.jpg',
 		people: [
+      {
+				img: 'images/people/gissele.png',
+				name: 'Catherine',
+				status: 'Completed',
+				distance: 2
+			},
 			{
 				img: 'images/people/jenni.jpg',
 				name: 'Jenni',
 				status: 'On list',
-				distance: 2
+				distance: 6
 			},
 			{
 				img: 'images/people/javier.png',
 				name: 'Javier',
 				status: 'Completed',
-				distance: 2
+				distance: 12
 			},
 			{
 				img: 'images/people/alex.png',
 				name: 'Alex',
 				status: 'On list',
-				distance: 2
+				distance: 8
 			},
 			{
 				img: 'images/people/gissele.png',
 				name: 'Gissele',
 				status: 'On list',
-				distance: 2
+				distance: 1
 			}
 		],
 		offers: [
@@ -111,17 +117,23 @@ var places = [
 		name: 'Paris',
 		img: 'images/places4.jpg',
 		people: [
+      {
+				img: 'images/people/gissele.png',
+				name: 'Catherine',
+				status: 'On list',
+				distance: 2
+			},
 			{
 				img: 'images/people/jenni.jpg',
 				name: 'Jenni',
 				status: 'On list',
-				distance: 2
+				distance: 11
 			},
 			{
 				img: 'images/people/javier.png',
 				name: 'Javier',
 				status: 'Completed',
-				distance: 2
+				distance: 7
 			},
 			{
 				img: 'images/people/alex.png',
@@ -129,12 +141,6 @@ var places = [
 				status: 'On list',
 				distance: 2
 			},
-			{
-				img: 'images/people/gissele.png',
-				name: 'Gissele',
-				status: 'On list',
-				distance: 2
-			}
 		],
 		offers: [
 			{
