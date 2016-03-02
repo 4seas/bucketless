@@ -24,14 +24,14 @@ app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 	}
 
 	$scope.checkClicked = function() {
-		$scope.listStatusLabel = "Dreams accomplished...";
+		$scope.listStatusLabel = "Dreams accomplished";
 		$scope.people = places.peopleDoneIt;
 		$scope.byPersonPlaceStatus = 'Completed';
 		$scope.activeList = $scope.doneList;
 	};
 
 	$scope.heartClicked = function() {
-		$scope.listStatusLabel = "On my Bucket List...";
+		$scope.listStatusLabel = "On my Bucket List";
 		$scope.people = places.peopleWantIt;
 		$scope.byPersonPlaceStatus = 'On list';
 		$scope.activeList = $scope.wishList;
