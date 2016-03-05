@@ -54,7 +54,14 @@ html, body {
 	padding-bottom: 60px;
 }
 .header__text {
+	font: initial;
+	font-weight: bold;
 	color: #fff;
+	margin-top: 20px !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px; /*1.5em;*/
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
 }
 .header {
 	height: 70px;
