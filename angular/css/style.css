@@ -42,6 +42,9 @@ html, body {
 	border-radius: 50%;
 	position: relative;
 	bottom: 25px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
 }
 .content {
 	min-height: 100vh;
@@ -49,6 +52,9 @@ html, body {
 }
 .content-profile {
 	padding-bottom: 60px;
+}
+.header__text {
+	color: #fff;
 }
 .header {
 	height: 70px;
