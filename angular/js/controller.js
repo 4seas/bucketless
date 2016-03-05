@@ -10,11 +10,13 @@ app.controller('indexController', function ($scope, $location, $routeParams) {
 	// 	console.log($scope.header);
 	// 	return $scope.header;
 	// }
+	$scope.selectedIcon = 1;
 
 	$scope.iconClass1 = $scope.iconClass2 = $scope.iconClass3 = "nav__icon";
 
 	$scope.changeClass = function(iconIndex) {
 		console.log("changeClass for " + iconIndex);
+		$scope.selectedIcon = iconIndex;
 		if(iconIndex == 1) {
 			$scope.iconClass1 = "nav__icon icon--circle";
 			$scope.iconClass2 = $scope.iconClass3 = "nav__icon";
@@ -28,6 +30,8 @@ app.controller('indexController', function ($scope, $location, $routeParams) {
 			$scope.iconClass1 = $scope.iconClass2 = "nav__icon";
 		}
 	}
+
+	$scope.changeClass(1);
 });
 
 app.controller('signInCtrl', function ($scope, $location, $routeParams) {

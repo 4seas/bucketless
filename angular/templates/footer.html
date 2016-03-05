@@ -1,5 +1,8 @@
 <section class="nav">
-	<a href="#/featured" class="{{iconClass1}}" ng-click="changeClass(1)"><img src="images/icons/home-3x.png" alt=""></div>
-	<a href="#/search" class="{{iconClass2}}" ng-click="changeClass(2)"><img src="images/icons/search-3x.png" alt=""></div>
-	<a href="#/profile" class="{{iconClass3}}" ng-click="changeClass(3)"><img src="images/icons/profile-3x.png" alt=""></div>
+	<a href="#/featured" class="{{iconClass1}}" ng-click="changeClass(1)"><img
+		ng-src="{{selectedIcon == 1 && 'images/icons/home-3x-white.png' || 'images/icons/home-3x.png'}}"/></div>
+	<a href="#/search" class="{{iconClass2}}" ng-click="changeClass(2)"><img
+		ng-src="{{selectedIcon == 2 && 'images/icons/search-3x-white.png' || 'images/icons/search-3x.png'}}"/></div>
+	<a href="#/profile" class="{{iconClass3}}" ng-click="changeClass(3)"><img
+		ng-src="{{selectedIcon == 3 && 'images/icons/profile-3x-white.png' || 'images/icons/profile-3x.png'}}"/></div>
 </section>
