@@ -313,7 +313,7 @@ var collections =
 	{
 		id: 3,
 		"caption": "Top 5 Destinations",
-		"collectionImage": "Paris"
+		"collectionImage": "paris"
 	},
 	{
 		"caption": "Best Landmarks to See",
