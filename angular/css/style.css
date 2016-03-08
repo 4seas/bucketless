@@ -141,6 +141,9 @@ a {
 	align-items:center;
 	height: 130px;
 }
+.platform-cordova .profile {
+	height: 200px;
+}
 .profile__img {
 	width: 28vw;
 	height: 28vw;

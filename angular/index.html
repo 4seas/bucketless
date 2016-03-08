@@ -25,6 +25,8 @@
 			&& document.URL.indexOf("file:///Users") == -1;
 		console.log("document.URL: " + document.URL);
 		// on Android, "file:///android_asset/www/index.html#/profile"
+		// on iPhone 6s+, "file:///var/mobile/Containers/Bundle/Application/99E010A1-CAA7-479F-B1F1-F68C891A5E54/bucketless.app/www/index.html#/profile"
+		// on simulator, "file:///Users/username/Library/Developer/CoreSimulator/Devices/99674FFB-FE38-4F11-9F51-03F57FC98A16/data/Containers/Bundle/Application/EC65ED19-8E3B-4759-B542-09D082739B20/bucketless.app/www/index.html#/"
 		//isApp = true;
 		if ( isApp ) {
 			var head = document.getElementsByTagName('head')[0];
