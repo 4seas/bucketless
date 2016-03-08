@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
 	<title>iBucket</title>
-	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+	  <script src="lib/angular/1.4.7/angular.min.js"></script>
+    <script src="lib/angular/1.4.7/angular-route.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controller.js"></script>
 		<script src="js/dataServices.js"></script>
@@ -17,11 +17,34 @@
 		<script src="templates/profile/ProfileController.js"></script>
 		<script src="templates/search/SearchController.js"></script>
 		<script src="templates/signup/SignupController.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='lib/fonts/Montserrat.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
-    <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
-    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
-    <script src="cordova.js"></script>
+		<script>
+		var isApp = document.URL.indexOf( 'http://' ) === -1
+			&& document.URL.indexOf( 'https://' ) === -1
+			&& document.URL.indexOf("file:///Users") == -1;
+		console.log("document.URL: " + document.URL);
+		// on Android, "file:///android_asset/www/index.html#/profile"
+		//isApp = true;
+		if ( isApp ) {
+			var head = document.getElementsByTagName('head')[0];
+			var js = document.createElement("script");
+			js.type = "text/javascript";
+			js.src = "lib/ionic/js/ionic.bundle.min.js";
+			//head.appendChild(js);
+			var js2 = document.createElement("script");
+			js2.type = "text/javascript";
+			js2.src = "cordova.js";
+			head.appendChild(js2);
+			var link = document.createElement("link");
+			link.rel = "stylesheet";
+			link.href="lib/ionic/css/ionic.min.css";
+			head.appendChild(link);
+		} else {
+			console.log("is web page");
+		    // Web page
+		}
+		</script
 </head>
 <body ng-app="iBucket" ng-controller="indexController">
 	<div ng-view class="container"></div>
