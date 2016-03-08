@@ -115,7 +115,7 @@ var places = [
 	{
 		id: 3,
 		name: 'Paris',
-		img: 'images/places5.jpg',
+		img: 'images/cities/paris.jpg',
 		people: [
       {
 				img: 'images/people/gissele.png',
