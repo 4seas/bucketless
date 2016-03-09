@@ -152,6 +152,10 @@ a {
 	background: url(../images/people/gissele.png);
 	margin: 0 30px;
 }
+.platform-android .profile__img {
+	width: 16vw;
+	height: 16vw;
+}
 .profile__data-p {
 	color:rgba(76,76,76,0.5);
 	margin: 0;
@@ -203,7 +207,9 @@ a {
 	background-position: center;
 	position: relative;
 }
-
+.platform-android .place {
+	height: 300px;
+}
 .place__h1 {
 	position: absolute;
 	bottom: 10%;
