@@ -293,7 +293,7 @@ var collections =
 	},
 	{
 		id: 2,
-		"caption": "2016 Popular Bucket Restaurants",
+		"caption": "2016 Popular Restaurants",
 		"collectionImage": "restaurant",
     "names":  [
       "Melisse",
