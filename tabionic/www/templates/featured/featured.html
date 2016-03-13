@@ -1,0 +1,15 @@
+<ng-include src="'templates/header.html'"></ng-include>
+<section class="content content-feature">
+
+	<!-- <div class="featured__text">
+		<h1 class="featured__text-h1">Trip to Paris</h1>
+		<p class="featured__text-p">Meditation kale chips mumblecore, freegan small batch church-key vice readymade leggings. </p>
+	</div> -->
+	<div ng-repeat="city in cities" class="place-contain">
+		<div class="place" ng-style="{'background-image':'linear-gradient(45deg, rgba(225,88,160,0.8) 0%, rgba(39, 170, 225, 0.36) 55%), url({{city.image}})'}">
+			<a href="#/cities/{{$index}}" class="place__a">
+			<h1 class="place__h1">{{city.city}}</h1></a>
+		</div>
+	</div>
+</section>
+<ng-include src="'templates/footer.html'"></ng-include>
