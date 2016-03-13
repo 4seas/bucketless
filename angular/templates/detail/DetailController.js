@@ -12,12 +12,14 @@ app.controller('detailCtrl', function ($scope, $http, $location, $routeParams){
 		$scope.peopleLabel = "People that have done this...";
 		$scope.people = places.peopleDoneIt;
 		$scope.byPersonPlaceStatus = 'Completed';
+		$scope.clickedButton = 1;
 	};
 
 	$scope.heartClicked = function() {
 		$scope.peopleLabel = "People who want to do this...";
 		$scope.people = places.peopleWantIt;
 		$scope.byPersonPlaceStatus = 'On list';
+		$scope.clickedButton = 2;
 	}
 
 	$scope.checkClicked();
