@@ -9,8 +9,10 @@
 		</div>
 	</div>
 	<div class="profile-nav">
-		<div class="profile-nav__button" ng-click="checkClicked()"><div class="profile-nav__img-contain"><img src="images/icons/check-3x.png" alt=""></div></div>
-		<div class="profile-nav__button" ng-click="heartClicked()"><div class="profile-nav__img-contain"><img src="images/icons/heart-3x.png" alt=""></div></div>
+		<div ng-class="clickedButton == 1 ? 'profile-nav__button_selected' : 'profile-nav__button'"
+			ng-click="checkClicked()"><div class="profile-nav__img-contain"><img src="images/icons/check-3x.png" alt=""></div></div>
+		<div ng-class="clickedButton == 2 ? 'profile-nav__button_selected' : 'profile-nav__button'"
+			ng-click="heartClicked()"><div class="profile-nav__img-contain"><img src="images/icons/heart-3x.png" alt=""></div></div>
 	</div>
 	<h3 class="descriptive-headers">{{listStatusLabel}}</h3>
 	<div ng-repeat="place in activeList" class="place-contain">

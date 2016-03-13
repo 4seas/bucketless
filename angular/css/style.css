@@ -176,15 +176,22 @@ a {
 	width: 50%;
 	background-color:#27aae1;
 }
+.profile-nav__button_selected {
+	display: flex;
+	align-content:center;
+	justify-content:center;
+	width: 50%;
+	background-color: #279dce;
+}
 .profile-nav__button:first-child {
 	border-right: 1px solid #2392c1;
 }
 .profile-nav__button:last-child {
 	border-left: 1px solid #2392c1;
 }
-.profile-nav__button:hover {
+/*.profile-nav__button:hover {
 	background-color: #279dce;
-}
+}*/
 .profile-nav__img-contain {
 	width: 7vw;
 	display: flex;

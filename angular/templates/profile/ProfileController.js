@@ -24,6 +24,7 @@ app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 	}
 
 	$scope.checkClicked = function() {
+		$scope.clickedButton = 1;
 		$scope.listStatusLabel = "Dreams accomplished";
 		$scope.people = places.peopleDoneIt;
 		$scope.byPersonPlaceStatus = 'Completed';
@@ -31,6 +32,7 @@ app.controller('profileCtrl', function ($scope, $location, $routeParams) {
 	};
 
 	$scope.heartClicked = function() {
+		$scope.clickedButton = 2;
 		$scope.listStatusLabel = "On my Bucket List";
 		$scope.people = places.peopleWantIt;
 		$scope.byPersonPlaceStatus = 'On list';
