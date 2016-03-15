@@ -59,6 +59,15 @@ app.run(function($ionicPlatform) {
       }
     }
 	})
+  .state('tab.city-detail', {
+    url: '/tab/cities/:cityId',
+    views: {
+      'tab-city': {
+        templateUrl: 'templates/city/city.html',
+        controller: 'cityCtrl'
+      }
+    }
+  })
   .state('tab.chats', {
       url: '/chats',
       views: {
