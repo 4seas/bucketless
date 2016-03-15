@@ -12,6 +12,25 @@ html, body {
 	background-color: #fff;
 	position: relative;
 }
+/* adjust header height */
+.bar-header{
+  height: 70px;
+}
+
+.has-header{
+  top: 70px;
+}
+.bar.bar-stable .title{
+	background-color: #27aae1;
+	color: #fff;
+	font-weight: 800;
+}
+.bar .title {
+	margin: 0 0px;
+	height: 70px;
+	font-size: 27px;
+	padding-top: 15px;
+}
 .form-contain {
 	background: url(../images/places4.jpg);
 	background-size: cover;
@@ -282,7 +301,7 @@ color: #4C4C4C;
 	font-size: 17px;
 }
 .content-individual {
-	top: -25px;
+	top: 0px;
 	padding-bottom: 110px;
 }
 .offer {
