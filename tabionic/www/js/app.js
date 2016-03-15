@@ -60,7 +60,7 @@ app.run(function($ionicPlatform) {
     }
 	})
   .state('tab.city-detail', {
-    url: '/tab/cities/:cityId',
+    url: '/featured/:cityId',
     views: {
       'tab-city': {
         templateUrl: 'templates/city/city.html',
@@ -81,8 +81,10 @@ app.run(function($ionicPlatform) {
       url: '/chats/:chatId',
       views: {
         'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+          templateUrl: 'templates/city/city.html',
+          controller: 'cityCtrl'
+          // templateUrl: 'templates/chat-detail.html',
+          // controller: 'ChatDetailCtrl'
         }
       }
     })

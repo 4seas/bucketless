@@ -282,6 +282,7 @@ color: #4C4C4C;
 	font-size: 17px;
 }
 .content-individual {
+	top: -25px;
 	padding-bottom: 110px;
 }
 .offer {
